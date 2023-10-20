@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "declaration": false,
     "sourceMap": true,
     "strict": true,
@@ -20,18 +16,11 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {},
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "typeRoots": ["node_modules/@types"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "allowSyntheticDefaultImports": true
   },
-  "include": [
-    "./src"
-  ],
-  "files": [
-    "./vue-shims.d.ts"
-  ]
+  "include": ["./src"]
 }

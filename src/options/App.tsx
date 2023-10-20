@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Container } from "./styles";
 
-const App: FC = () => <Container>Hey, it is the DevTools app</Container>;
+const App: FC = () => <Container>Hey, it is the options page</Container>;
 
 export default App;

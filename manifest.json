@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Extension Starter",
+  "name": "Chome extension react ts start",
   "version": "1.0.0",
   "description": "",
   "icons": {
@@ -19,9 +19,7 @@
   },
   "content_scripts": [
     {
-      "js": [
-        "content/index.js"
-      ],
+      "js": ["content/index.js"],
       "matches": ["<all_urls>"]
     }
   ],
@@ -30,17 +28,13 @@
   },
   "devtools_page": "devtools/index.html",
   "options_page": "options/index.html",
-  "web_accessible_resources": [{
-    "resources": [
-      "assets/icons/*.png"
-    ],
-    "matches": [],
-    "extension_ids": []
-  }],
-  "permissions": [
-    "tabs"
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/icons/*.png"],
+      "matches": [],
+      "extension_ids": []
+    }
   ],
-  "host_permissions": [
-    "*://*/*"
-  ]
+  "permissions": ["tabs"],
+  "host_permissions": ["*://*/*"]
 }
